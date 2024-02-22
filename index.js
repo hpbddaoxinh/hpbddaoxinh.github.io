@@ -12,7 +12,7 @@ const allbum1 = {
 
 const allbum2 = {
     content: "Cheers to the one who adds so much flavor to my life. May your birthday be as delightful and unforgettable as our friendship. Happy birthday to a truly radiant woman!",
-    cdn: "./img/IMG_0007.JPG"
+    cdn: "https://raw.githubusercontent.com/hpbddaoxinh/hpbddaoxinh.github.io/main/img/IMG_0007.jpg"
 }
 
 const startBtn = document.querySelector(".startBtn");

@@ -742,3 +742,91 @@ html, body {
         transform: translateY(80vh);
     }
 }
+/* Mobile */
+@media all and (max-width: 768px) {
+    html, body {
+        overflow: auto;
+    }
+
+    .mainPage {
+        align-items: flex-start;
+    }
+
+    .letter {
+        width: 100%;
+        transform: none;
+    }
+
+    .left,
+    .right {
+        position: relative;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .leftBack {
+        display: none;
+    }
+
+    .letterContent {
+        font-size: 18px;
+    }
+
+    .processTimer,
+    .lengthProcessTimer,
+    .nameMusic,
+    .sign {
+        font-size: 16px;
+    }
+
+    .musicShowcase {
+        height: 20%;
+        margin-top: 10px;
+    }
+
+    .musicShowcase > img {
+        height: 80%;
+    }
+
+    .musicControl .btnControl {
+        height: 15px;
+        width: 15px;
+        font-size: 18px;
+        padding: 20px;
+    }
+
+    .mainRight {
+        width: 100%;
+    }
+
+    .allbum {
+        height: 150px;
+        margin-top: 20px;
+    }
+
+    .detailAllbum,
+    .contentLetter,
+    .content {
+        font-size: 16px;
+    }
+
+    .letterForm,
+    .startLetter,
+    .backgroundParty {
+        width: 100%;
+    }
+
+    .bannerParty {
+        animation: animateBannerMobile 1s ease-in-out 1s infinite alternate;
+    }
+
+    .balloon {
+        bottom: 30px;
+        width: 150px;
+    }
+
+    .content.actived {
+        bottom: 120px;
+        width: 90%;
+    }
+}

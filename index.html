@@ -13,6 +13,7 @@
     <title>Happy Birthday Xíuuuuu</title>
 </head>
 <body>
+    <audio id="myAudio" src="./audio/birthday.mp3" type="audio/mp3"></audio>
     <div class="mainPage">
         <div class="letter">
             <div class="left">
@@ -35,7 +36,7 @@
 
                     <div class="musicControl">
                         <button class="btnControl prevBtn"><i class="fas fa-fast-backward"></i></button>
-                        <button class="btnControl startBtn"><i class="fas fa-play"></i></button>
+                        <button class="btnControl startBtn" onclick="playAudio()"><i class="fas fa-play"></i></button> 
                         <button class="btnControl nextBtn"><i class="fas fa-fast-forward"></i></button>
                     </div>
                 </div>
@@ -67,6 +68,7 @@
         </div>
     </div>
 
+    
     <script src="./index.js" defer></script>
 </body>
 </html>
